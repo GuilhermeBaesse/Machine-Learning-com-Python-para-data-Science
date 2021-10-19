@@ -1,6 +1,6 @@
 # Este repósitorio é para demonstrar o progresso em um curso relacionado Machine learning, visando aprender mais sobre o universo incrivel do da ciência de dadoss. 
 
-## Além de me aprofundar em numpy e pandas, segue alguns outros tópicos abordados nesse curso foram:
+## Além de me aprofundar em numpy e pandas, segue alguns outros tópicos abordados nesse curso:
 
 
 **Parte 1** - Pré-processamento de dados
