@@ -25,5 +25,11 @@ plt.scatter(X_test, Y_test, color = 'red')
 plt.plot(X_train, regressor.predict(X_train), color = 'blue')
 plt.title('Salary vs Experience (Test set)')
 plt.xlabel('Years of Experience')
-ply.ylabel('Salary')
+plt.ylabel('Salary')
 plt.show()
+
+print(regressor.predict([[12]]))
+
+print(regressor.coef_)
+print(regressor.intercept_)
+#salario =9312.94×YearsExperience+26786.09
