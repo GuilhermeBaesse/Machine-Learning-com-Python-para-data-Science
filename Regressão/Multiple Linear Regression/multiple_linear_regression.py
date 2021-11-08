@@ -24,4 +24,5 @@ regressor.fit(X_train, Y_train)
 #Predicting the test set results
 y_pred = regressor.predict(X_test)
 np.set_printoptions(precision=2)
-print(np.concatenate())
+print(np.concatenate((y_pred.reshape(len(y_pred),1), Y_test.reshape(len(Y_test),1)),1))
+print(regressor.predict([[1, 0, 0, 160000, 130000, 300000]]))
